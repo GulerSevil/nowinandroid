@@ -1,0 +1,24 @@
+name: Localize
+
+on:
+  workflow_dispatch:
+
+jobs:
+  localize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Localize Android or iOS strings
+        uses: GulerSevil/mobile_ai_localizer@v0.0.1
+        with:
+          platform: android
+          source_file: ${{ github.workspace }}/app/src/main/res/values/strings.xml
+          source_language_code: en
+          target_language_code_list: es|fr|de
+          pr_title: "Update translations"
+          pr_body: "This PR updates translations for Spanish, French, and German"
+          project_root: ${{ github.workspace }}
+       secrets:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
