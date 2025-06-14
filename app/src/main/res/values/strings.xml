@@ -12,47 +12,4 @@
     <string name="clear_history">Clear search history?</string>
     <string name="learn_more"><![CDATA[Learn more <a href="%1$s">here</a>.]]></string>
 
-    <!-- Plurals -->
-    <plurals name="items_in_cart">
-        <item quantity="zero">No items in your cart</item>
-        <item quantity="one">1 item in your cart</item>
-        <item quantity="other">%d items in your cart</item>
-    </plurals>
-
-    <plurals name="notifications_count">
-        <item quantity="one">You have 1 new notification</item>
-        <item quantity="other">You have %d new notifications</item>
-    </plurals>
-
-    <!-- String Arrays -->
-    <string-array name="categories">
-        <item>Electronics</item>
-        <item>Home & Garden</item>
-        <item>Beauty</item>
-        <item>Fashion</item>
-        <item>Sports</item>
-    </string-array>
-
-    <string-array name="languages_supported">
-        <item>English</item>
-        <item>Français</item>
-        <item>Español</item>
-        <item>Deutsch</item>
-        <item>日本語</item>
-    </string-array>
-
-    <!-- HTML Example with spans -->
-    <string name="terms_and_conditions">
-        <![CDATA[
-            By signing up, you agree to our 
-            <a href="https://example.com/terms">Terms of Service</a> 
-            and 
-            <a href="https://example.com/privacy">Privacy Policy</a>.
-        ]]>
-    </string>
-
-    <!-- Placeholder Example -->
-    <string name="order_confirmation">Thank you, %1$s! Your order #%2$s has been placed successfully.</string>
-    <string name="estimated_delivery">Estimated delivery: %1$s - %2$s</string>
-
 </resources>
