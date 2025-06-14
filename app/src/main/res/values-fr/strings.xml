@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="app_name">Maintenant dans Android</string>
+	<string name="not_connected">Vous n'êtes pas connecté à Internet</string>
+</resources>
