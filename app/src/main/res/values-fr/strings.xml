@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="app_name">SmartShopper</string>
+	<string name="welcome_message">Bienvenue,</string>
+	<string name="network_error">Erreur réseau. Veuillez réessayer</string>
+	<string name="search_placeholder">Rechercher des produits, des marques ou des catégories</string>
+	<string name="login_button">Connexion</string>
+	<string name="signup_button">Créer un compte</string>
+	<string name="dark_mode">Mode obscur</string>
+	<string name="clear_history">Un historique de recherche clair ?</string>
+	<string name="learn_more">En savoir plus &lt;a href=%1$s"&gt;ici&lt;/a&gt;</string>
+</resources>
