@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="app_name">Comprador inteligente</string>
+	<string name="welcome_message">Bienvenido de nuevo,</string>
+	<string name="network_error">Error de red. Por favor, intente de nuevo</string>
+	<string name="search_placeholder">Buscar productos, marcas o categorías</string>
+	<string name="login_button">Ingresar</string>
+	<string name="signup_button">Crear cuenta</string>
+	<string name="dark_mode">Modo oscuro</string>
+	<string name="clear_history">¿Despejado el historial de búsqueda?</string>
+	<string name="learn_more">Más información aquí &lt;a href="%1$s"&gt;a</string>
+</resources>
